@@ -31,6 +31,24 @@ print(myList);
 myList.append(['a', True, "Priyansu", 2]); # this will add this list of elements as a list to 'myList'
 print(myList); 
 
-myList.extend(['a', True, "Priyansu", 2]); # This will extend 'myList' and add the elements to it
+myList.extend(['a', True, "Priyansu", 2]); # This will extend 'myList' and add the elements to the list
 print(myList);
+
+# 'pop' - remove element from list 
+#       - pop() returns the element
+
+myList.pop(4);
+print(myList);
+
+elementPoped = myList.pop(0); # pop() retuens the element and we store it in 'elementPoped' variable
+print(elementPoped);
+print(myList);
+
+# 'reverse'
+#          - this reverses the element in place
+#          - and doesn't return the new reversed list
+myList.reverse();
+print(myList);
+
+print(myList.reverse()); # OUTPUT - None
 ```
