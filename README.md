@@ -44,11 +44,16 @@ elementPoped = myList.pop(0); # pop() retuens the element and we store it in 'el
 print(elementPoped);
 print(myList);
 
-# 'reverse'
+# 'reverse()'
 #          - this reverses the element in place
 #          - and doesn't return the new reversed list
 myList.reverse();
 print(myList);
 
 print(myList.reverse()); # OUTPUT - None
+
+# 'sort()'
+newMyList1 = [1,5,6,3,2,7,8,3,6,4,6,8,1,23,4,5,6,6,7,8,8];
+newMyList1.sort();
+print(newMyList1);
 ```
