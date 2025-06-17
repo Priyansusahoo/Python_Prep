@@ -56,4 +56,15 @@ print(myList.reverse()); # OUTPUT - None
 newMyList1 = [1,5,6,3,2,7,8,3,6,4,6,8,1,23,4,5,6,6,7,8,8];
 newMyList1.sort();
 print(newMyList1);
+
+
+# LIST COMPREHENSION
+
+matrix = [[1,2,3], [4,5,6],[7,8,9]];
+print(matrix[0][1]);
+
+# printing 1st element in each row of a matrix
+firstColumn = [row[0] for row in matrix]
+
+print(firstColumn); # OUTPUT - [1, 4, 7]
 ```
