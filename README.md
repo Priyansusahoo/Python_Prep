@@ -147,3 +147,33 @@ t[1] = "a" # This won't work as they are immutable
 print(t[2]) # indexed
 
 ```
+
+
+
+
+## Set
+```python
+"""
+ SET:
+  - unique elements
+  - un-ordered
+"""
+
+x = set(); # initialization
+
+x.add(1);
+x.add(1);
+x.add(2);
+x.add(2);
+x.add(2);
+x.add(3);
+x.add(3);
+
+print(x);
+
+# 'list' to a 'set'
+converted = set([1,2,3,4,4,4,4,4,4,4,4,4,4,4,4,6,4,3,2,5,6,87,8,9]);
+
+
+print(converted);
+```
