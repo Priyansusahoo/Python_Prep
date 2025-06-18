@@ -125,3 +125,25 @@ dictionary["key5"] = "Bankai"; # new key
 
 print(dictionary);
 ```
+
+
+
+
+
+## Tuple
+```python
+"""
+ TUPLES:
+  - Immutable - No Item assignment (unlike list)
+  - indexed and slicing is same as list
+  - ()
+  
+"""
+
+t = (1,2,3,"abc")
+
+t[1] = "a" # This won't work as they are immutable
+
+print(t[2]) # indexed
+
+```
