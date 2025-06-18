@@ -79,4 +79,16 @@ copyList = myList[0:4];
 copyList = myList.copy();
 
 print(copyList)
+
+# Slicing Syntax in Python
+print(myList[0::2]);
+
+# print in reverse order
+print(myList[::-1]);
+
+# start - not mentioned
+# end   - not mentioned
+# step  - it's negative steps so it will start from last and also include the step
+
+print(myList[::-3]);
 ```
