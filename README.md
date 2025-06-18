@@ -92,3 +92,36 @@ print(myList[::-1]);
 
 print(myList[::-3]);
 ```
+
+
+
+
+## Dictionary
+```python
+"""
+Dictionary:
+           - key-value pair
+           - un-ordered
+           - mutuable in nature
+           - accessed by it's key
+"""
+
+dictionary = {
+                "key1" : 123,
+                "key2" : "abc",
+                "key3" : {
+                            "key3_nested_key" : "nested-key3-value"
+                         },
+                "key4" : {
+                            "key4_nested_key" : [1,2,'a']
+                         }
+             };
+             
+print(dictionary["key4"]["key4_nested_key"][2]); # OUTPUT: a
+
+dictionary["key1"] = "new_Value-123"; # new value - modified using key
+dictionary["key5"] = "Bankai"; # new key 
+
+
+print(dictionary);
+```
