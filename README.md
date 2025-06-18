@@ -67,4 +67,16 @@ print(matrix[0][1]);
 firstColumn = [row[0] for row in matrix]
 
 print(firstColumn); # OUTPUT - [1, 4, 7]
+
+myList = [1,2,3,4,5,6,6,7,8,8,9]
+
+
+print(myList[:])
+
+# copy content from one list to another
+copyList = list(myList[0:4]);
+copyList = myList[0:4];
+copyList = myList.copy();
+
+print(copyList)
 ```
